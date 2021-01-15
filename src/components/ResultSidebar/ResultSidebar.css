@@ -1,0 +1,28 @@
+.ResultSidebar{
+    padding: 1rem;
+    flex: 0.20;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.Button{
+    background-color: var(--color-primary-darker);
+    text-decoration: none;
+    border-radius: 0.5rem;
+    border: 1px solid var(--color-yellow);
+    margin-bottom: 5rem;
+    padding: 1rem 4rem;
+    display: flex;
+    justify-content: center;
+    box-shadow: 2px 2px 2px 0px rgba(50, 50, 50, 0.75);
+    align-items: center;
+    cursor: pointer;
+}
+
+.Text{
+    font-size: 1.75rem;
+    letter-spacing: 0.25rem;
+    color: var(--color-yellow);
+}

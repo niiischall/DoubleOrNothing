@@ -1,0 +1,18 @@
+.ToggleBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Image{
+    width: 3rem;
+    height: 3rem;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.Text{
+    margin: 0rem 1rem;
+    font-size: 1.5rem;
+    color: var(--color-text);
+}

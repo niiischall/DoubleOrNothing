@@ -1,0 +1,91 @@
+.Grid{
+    flex: 0.9;
+    display: flex;
+    flex-direction: column;
+}
+
+.GridHeader{
+    flex: 0.1;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.GridPill{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 2.5px;
+    align-items: center;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: var(--color-background-sidebar);
+}
+
+.RowPill{
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    border-radius: 2.5px;
+    align-items: center;
+    font-size: 1.25rem;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.GridSmall{
+    width: 8rem;
+}
+
+.GridMedium{
+    width: 16rem;
+}
+
+.GridLarge{
+    width: 24rem;
+    justify-content: flex-start!important;
+    padding-left: 1rem;
+}
+
+.GridContent{
+    flex: 0.9;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.GridContentRow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--color-background-sidebar);
+}
+
+.IconSmall{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 5px;
+}
+
+.IconMedium{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 5px;
+    margin-bottom: 2.5px;
+}
+
+.IconLarge{
+    width: 1.75rem;
+    height: 1.75rem;
+    margin-right: 5px;
+}
+
+.ProfilePicture{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 5px;
+    border: 1px solid var(--color-background-sidebar);
+}

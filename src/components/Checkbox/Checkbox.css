@@ -1,0 +1,17 @@
+.customCheckbox{
+    width: 15px;
+    height: 15px; 
+    border-radius: 3px;
+    border: 1px solid #e0e4e7;
+    background-color: #ffffff;
+    margin-top: 3px;
+    display: block;
+    float: left;
+    cursor: pointer;
+}
+
+.customCheckboxActive{
+    background-color: var(--color-primary-dark);
+    border: solid 1px var(--color-primary-dark);
+}
+

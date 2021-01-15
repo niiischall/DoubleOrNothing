@@ -1,0 +1,35 @@
+.ButtonContainer{
+   flex: 0.10;
+   padding: 1rem;
+   margin: 0 1.5rem;
+}
+
+.ActiveButton{
+    background-color: var(--color-primary-dark);
+    text-decoration: none;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    box-shadow: 2px 2px 2px 0px rgba(50, 50, 50, 0.75);
+    align-items: center;
+    cursor: pointer;
+}
+
+.InactiveButton{
+    background-color: var(--color-text);
+    text-decoration: none;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    box-shadow: 2px 2px 2px 0px rgba(50, 50, 50, 0.75);
+    align-items: center;
+    cursor: pointer;
+}
+
+.Text{
+    font-size: 1.75rem;
+    letter-spacing: 0.25rem;
+    color: var(--color-white);
+}
